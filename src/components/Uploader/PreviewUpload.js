@@ -5,8 +5,8 @@ import './style.css'
 const config = {
   bucketName: 'wal-bucket',
   region: 'us-east-1',
-  accessKeyId: "AKIAJ33FW7SSUJQ7GYWA",
-  secretAccessKey: "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",
+  accessKeyId: "XXX",
+  secretAccessKey: "XXX",
 }
 export default class Preview extends Component {
   state = {
