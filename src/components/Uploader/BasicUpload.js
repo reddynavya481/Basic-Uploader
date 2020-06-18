@@ -20,8 +20,8 @@ const fileTypes = [
 const config = {
   bucketName: 'wal-bucket',
   region: 'us-east-1',
-  accessKeyId: "AKIAJ33FW7SSUJQ7GYWA",
-  secretAccessKey: "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",
+  accessKeyId: "X",
+  secretAccessKey: "X",
 }
 export default class Uploader extends Component {
   constructor(props) {
