@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Youtube from './components/Youtube'
+import BasicUpload from './components/Uploader/BasicUpload'
 function App() {
   return (
     <div className="App">
-      <Youtube/>
+      <BasicUpload />
     </div>
   );
 }
