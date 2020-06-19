@@ -13,21 +13,14 @@ const fileTypes = [
   "image/pjpeg",
   "image/png",
   "image/svg+xml",
-  "image/tiff",
   "image/webp",
   "image/x-icon"
 ];
 const config = {
   bucketName: 'wal-bucket',
-<<<<<<< HEAD
   region: 'XX',
   accessKeyId: "XX",
   secretAccessKey: "XX",
-=======
-  region: 'us-east-1',
-  accessKeyId: "X",
-  secretAccessKey: "X",
->>>>>>> 0dae0a428130caff57ca1f62697cc31dc9f9b1a3
 }
 export default class Uploader extends Component {
   constructor(props) {
@@ -139,7 +132,7 @@ export default class Uploader extends Component {
   }
   onDrop = (files) => {
     if (!this.validFileType(files[0])) {
-      this.setState({ ok: false, message: 'not a valid file type or size is greater than 10mb' })
+      this.setState({ ok: false, message: 'not a valid file type or size is greater than 10MB' })
     }
     else {
       this.setState({ file: files[0], button: false })
